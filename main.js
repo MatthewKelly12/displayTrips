@@ -1,12 +1,37 @@
 
 // make function to create div and text content, append to body
+
+
 let tripsDatabase = JSON.parse(localStorage.getItem("Matt's Trips"));
 let mainBody = document.getElementById("cardTrip");
+
 function makeDiv () {
   for (let i = 0; i < tripsDatabase.myTrips.length; i++) { 
     
     let div1 = document.createElement("div");
-     mainBody.appendChild(div1);
+
+    switch(tripsDatabase.myTrips[i].continent) {
+    case "North America" :
+        div1.setAttribute("class", "northAmerica");
+        break;
+    case "South America" :
+        div1.setAttribute("class", "southAmerica");
+        break;
+    case "Asia" :
+        div1.setAttribute("class", "asia");
+        break;
+    case "Europe" :
+        div1.setAttribute("class", "europe");
+        break;
+    case "Africa" :
+        div1.setAttribute("class", "africa");
+        break;
+    case "Australia" :
+        div1.setAttribute("class", "australia");
+        break;
+    }
+     
+    mainBody.appendChild(div1);
 
      let head2 = document.createElement("h2");
      head2.textContent = tripsDatabase.myTrips[i].cityName;

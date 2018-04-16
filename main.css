@@ -1,21 +1,60 @@
-/* .divStyle {
-    display: inline-block;
-    margin: 0 5px 0 5px;
-    width: 20%;
-    height: 20%;
-    padding: 5px 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 2px groove black;
-    background-color: blue;
-}  */
-
-
-div {
+.northAmerica {
     display: inline-block;
     background-color: lightgrey;
     width: 200px;
     border: 25px solid green;
     padding: 25px;
     margin: 25px;
-}
+    text-align: center;
+} 
+
+.southAmerica {
+    display: inline-block;
+    background-color: lightgrey;
+    width: 200px;
+    border: 25px solid blue;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+} 
+
+.asia {
+    display: inline-block;
+    background-color: lightgrey;
+    width: 200px;
+    border: 25px solid purple;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+} 
+
+.europe {
+    display: inline-block;
+    background-color: lightgrey;
+    width: 200px;
+    border: 25px solid orange;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+} 
+
+.africa {
+    display: inline-block;
+    background-color: lightgrey;
+    width: 200px;
+    border: 25px solid red;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+} 
+
+.australia {
+    display: inline-block;
+    background-color: lightgrey;
+    width: 200px;
+    border: 25px solid brown;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+} 
 
